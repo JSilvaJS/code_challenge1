@@ -1,4 +1,4 @@
-var form1 = [
+export default [
   { type: 'text', label: 'Name' },
   { type: 'email', label: 'Email' },
   { type: 'password', label: 'Password' },
