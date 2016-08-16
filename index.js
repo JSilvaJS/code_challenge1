@@ -23,7 +23,7 @@ function button(inputInfo) {
 	console.log(inputInfo);
 	return ` 
 	<div class="button_div">
-		<button type="${inputInfo.type}" placeholder="${inputInfo.label}"></button>
+		<button type="${inputInfo.type}" placeholder="${inputInfo.label}">submit</button>
 	</div>
 	`;
 }
